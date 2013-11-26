@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+
+{
+	int a, b;
+	int c;
+
+	printf("\n Bir Sayi Giriniz: a = ");
+	scanf_s("%d",&a);
+	printf("\n Bir Sayi Daha Lutfen: b = ");
+	scanf_s("%d",&b);
+
+	c = a;
+	a = b;
+	b = c;
+
+	printf("\n a = %d",a);
+	printf("\n b = %d",b);
+
+	_getch();
+
+}
